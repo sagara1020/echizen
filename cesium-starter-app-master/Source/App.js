@@ -50,3 +50,6 @@ polygon.add({
 	material : Cesium.Color.GREEN
     }
 });
+
+cesiumWidget.camera.flyTo({
+    destination : Cesium.Cartesian3.fromDegrees(139.76,35.67, 15000.0)});
