@@ -3,9 +3,9 @@ var cesiumWidget = new Cesium.Viewer('cesiumContainer');
 var point = cesiumWidget.entities;
 
 point.add({
-        position : Cesium.Cartesian3.fromDegrees(-75.59777, 40.03883),
+        position : Cesium.Cartesian3.fromDegrees(136.173477, 35.899619),
         point : {
             pixelSize : 10,
-            color : Cesium.Color.YELLOW
+            color : Cesium.Color.BLUE
     }
 });
