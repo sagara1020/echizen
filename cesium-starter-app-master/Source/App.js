@@ -1,4 +1,4 @@
-var cesium = new Cesium.Viewer('cesiumContainer');
+var cesiumWidget = new Cesium.Viewer('cesiumContainer');
 //add a point
 var point = cesiumWidget.entities;
 
