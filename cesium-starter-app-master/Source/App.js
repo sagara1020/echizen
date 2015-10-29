@@ -13,7 +13,7 @@ point.add({
 var line = cesiumWidget.entities;
 
 line.add({
-    name : 'Red line on the surface',
+    name : 'Red line',
     polyline : {
         positions : Cesium.Cartesian3.fromDegreesArray([136.137600, 36.218795,
                                                         136.146183, 36.210070,
@@ -29,10 +29,10 @@ line.add({
 });
 
 //add polygon
-var Polygon = cesiumWidget.entities;
+var polygon = cesiumWidget.entities;
 
-Polygon.add({
-    name : 'Polygon',
+polygon.add({
+    name : 'polygon',
     polygon : {
         hierarchy : Cesium.Cartesian3.fromDegreesArray([136.220266, 36.066095,
                                                         136.220287, 36.063848,
