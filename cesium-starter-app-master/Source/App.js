@@ -52,4 +52,4 @@ polygon.add({
 });
 
 cesiumWidget.camera.flyTo({
-    destination : Cesium.Cartesian3.fromDegrees(136.173477, 35.899619, 150000.0)});
+    destination : Cesium.Cartesian3.fromDegrees(136.173477, 35.899619, 30000.0)});
