@@ -12,7 +12,7 @@ point.add({
 
 var line = cesiumWidget.entities;
 
-line1.add({
+line.add({
     name : 'Red line on the surface',
     polyline : {
         positions : Cesium.Cartesian3.fromDegreesArray([136.137600, 36.218795,
