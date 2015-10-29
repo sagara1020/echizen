@@ -46,7 +46,7 @@ polygon.add({
                                                         136.222315, 36.066138,
                                                         136.221435, 36.066216,
                                                       ]),
-        extrudedHeight: 500000.0,
+        extrudedHeight: 333.0,
 	material : Cesium.Color.GREEN
     }
 });
