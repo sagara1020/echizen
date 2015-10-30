@@ -57,3 +57,4 @@ polygon.add({
 cesiumWidget.camera.flyTo({ destination : Cesium.Cartesian3.fromDegrees(136.194763, 36.047711, 45000.0)});
 
 cesiumWidget.dataSources.add(Cesium.KmlDataSource.load('http://sagara1020.github.io/echizen/cesium-starter-app-master/Source/refuge.kml'));
+cesiumWidget.dataSources.add(Cesium.KmlDataSource.load('http://sagara1020.github.io/echizen/cesium-starter-app-master/Source/flood_assumed_area.kml'));
