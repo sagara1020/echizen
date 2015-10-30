@@ -56,7 +56,7 @@ cesiumWidget.camera.flyTo({
 
 
 
-Sandcastle.addToolbarMenu([{
+cesiumWidget.addToolbarMenu([{
     text : '越前市一次避難所',
     onselect : function() {
         cesiumWidget.homeButton.viewModel.command();
