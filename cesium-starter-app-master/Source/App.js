@@ -5,8 +5,8 @@ Sandcastle.addToolbarMenu([{
     onselect : function() {
         cesiumWidget.homeButton.viewModel.command();
         cesiumWidget.dataSources.add(Cesium.KmlDataSource.load('http://sagara1020.github.io/echizen/cesium-starter-app-master/Source/refuge.kml'));
-    },
-  {
+    }
+ },{
     text : 'test2',
     onselect : function() {
         cesiumWidget.dataSources.add(Cesium.KmlDataSource.load('http://sagara1020.github.io/echizen/cesium-starter-app-master/Source/flood_assumed_area.kml'));
