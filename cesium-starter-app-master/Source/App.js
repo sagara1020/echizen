@@ -53,4 +53,19 @@ polygon.add({
 
 cesiumWidget.camera.flyTo({
     destination : Cesium.Cartesian3.fromDegrees(136.194763, 36.047711, 45000.0)});
-cesiumWidget.dataSources.add(Cesium.KmlDataSource.load('http://sagara1020.github.io/echizen/cesium-starter-app-master/Source/echizen_map.kmz'));
+
+
+
+Sandcastle.addToolbarMenu([{
+    text : '越前市一次避難所',
+    onselect : function() {
+        cesiumWidget.homeButton.viewModel.command();
+        cesiumWidget.dataSources.add(Cesium.KmlDataSource.load('http://sagara1020.github.io/echizen/cesium-starter-app-master/Source/refuge.kml'));
+    },
+  {
+    text : '越前市浸水想定区域',
+    onselect : function() {
+        viewer.dataSources.add(Cesium.KmlDataSource.load('http://sagara1020.github.io/echizen/cesium-starter-app-master/Source/flood_assumed_area.kml'));
+
+    }
+}]);
