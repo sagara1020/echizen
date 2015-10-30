@@ -54,20 +54,4 @@ polygon.add({
     }
 });
 
-//cesiumWidget.camera.flyTo({
-   // destination : Cesium.Cartesian3.fromDegrees(136.194763, 36.047711, 45000.0)});
-
-Sandcastle.addToolbarMenu([{
-    text : 'test1',
-    onselect : function() {
-        cesiumWidget.homeButton.viewModel.command();
-        cesiumWidget.dataSources.add(Cesium.KmlDataSource.load('http://sagara1020.github.io/echizen/cesium-starter-app-master/Source/refuge.kml'));
-        cesiumWidget.camera.flyTo({ destination : Cesium.Cartesian3.fromDegrees(136.194763, 36.047711, 45000.0)});
-    }
- },{
-    text : 'test2',
-    onselect : function() {
-        cesiumWidget.dataSources.add(Cesium.KmlDataSource.load('http://sagara1020.github.io/echizen/cesium-starter-app-master/Source/flood_assumed_area.kml'));
-        cesiumWidget.camera.flyTo({ destination : Cesium.Cartesian3.fromDegrees(136.194763, 36.047711, 45000.0)});
-    }
-}]);
+cesiumWidget.camera.flyTo({ destination : Cesium.Cartesian3.fromDegrees(136.194763, 36.047711, 45000.0)});
