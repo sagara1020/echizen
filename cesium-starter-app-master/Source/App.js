@@ -65,7 +65,7 @@ Sandcastle.addToolbarMenu([{
   {
     text : '越前市浸水想定区域',
     onselect : function() {
-        viewer.dataSources.add(Cesium.KmlDataSource.load('http://sagara1020.github.io/echizen/cesium-starter-app-master/Source/flood_assumed_area.kml'));
+        cesiumWidget.dataSources.add(Cesium.KmlDataSource.load('http://sagara1020.github.io/echizen/cesium-starter-app-master/Source/flood_assumed_area.kml'));
 
     }
 }]);
