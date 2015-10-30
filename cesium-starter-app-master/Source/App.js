@@ -1,13 +1,13 @@
 var cesiumWidget = new Cesium.Viewer('cesiumContainer');
 
 Sandcastle.addToolbarMenu([{
-    text : '越前市一次避難所',
+    text : 'test1',
     onselect : function() {
         cesiumWidget.homeButton.viewModel.command();
         cesiumWidget.dataSources.add(Cesium.KmlDataSource.load('http://sagara1020.github.io/echizen/cesium-starter-app-master/Source/refuge.kml'));
     },
   {
-    text : '越前市浸水想定区域',
+    text : 'test2',
     onselect : function() {
         cesiumWidget.dataSources.add(Cesium.KmlDataSource.load('http://sagara1020.github.io/echizen/cesium-starter-app-master/Source/flood_assumed_area.kml'));
 
